@@ -21,3 +21,9 @@ Use two QWidget self drawing.
 ![](/images/20181212105443.png)
 
 first committed on 7 Nov 2017
+
+## color-picker
+
+![](/images/20181212110139.gif)
+
+first committed on 13 May 2017
