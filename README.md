@@ -18,6 +18,6 @@ first committed on 31 Jul 2017
 
 Use two QWidget self drawing.
 
-![](/images/20181212104836.png)
+![](/images/20181212105443.png)
 
 first committed on 7 Nov 2017
