@@ -33,3 +33,9 @@ first committed on 13 May 2017
 ![](/images/media-player_20181220102619.png)
 
 first committed on 25 Feb 2017
+
+## dict-examples
+
+![](/images/dict_20181220105040.png)
+
+first committed on 8 Jun 2017
