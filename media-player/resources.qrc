@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+	    <file>resources/icon.svg</file>
+	    <file>resources/default_mute.svg</file>
+	    <file>resources/default_unmute.svg</file>
+	    <file>resources/disabled_next.svg</file>
+	    <file>resources/disabled_pause.svg</file>
+	    <file>resources/disabled_play.svg</file>
+	    <file>resources/disabled_previous.svg</file>
+        <file>resources/fullscreen_normal.svg</file>
+        <file>resources/stop_normal.svg</file>
+    </qresource>
+</RCC>

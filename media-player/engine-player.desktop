@@ -1,0 +1,11 @@
+[Desktop Entry]
+Categories = AudioVideo;Player;
+Comment = Play your video collection
+Comment[zh_CN] = 视频播放器
+Exec=/home/rekols/engine-player/build/engine-player
+Icon=/home/rekols/engine-player/resources/icon.svg
+Name=EPlayer
+Name[zh_CN]=视频播放器
+StartupNotify=true
+TryExec=/home/rekols/engine-player/build/engine-player
+Type=Application
