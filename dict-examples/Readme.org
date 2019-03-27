@@ -1,0 +1,16 @@
+** issue 
+#+BEGIN_QUOTE
+if you built it, that occur qt.network.ssl: xx, that can be solved in the following ways
+#+END_QUOTE
+
+#+BEGIN_SRC
+$ wget http://www.openssl.org/source/openssl-1.0.2d.tar.gz
+$ tar -zxvf openssl-1.0.2d.tar.gz
+$ cd openssl-1.0.2d
+$ ./config enable-shared
+$ make depend
+$ make -j4
+
+// my qt directory: ~/Qt5.8.0/5.8/gcc_64/lib
+$ sudo cp libcrypto.so.1.0.0 libssl.so.1.0.0 ~/Qt5.8.0/5.8/gcc_64/lib
+#+END_SRC
