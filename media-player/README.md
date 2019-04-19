@@ -43,7 +43,12 @@ $ wget https://codeload.github.com/wang-bin/QtAV/zip/master
 $ unzip master 
 ```
 
-use `qt quick` to build it, before we need configure `Build Environment`, such:
+use `qt quick` to build it, before we need configure `Build Environment`, 
+then need add three variable:
+- CPATH
+- LD_LIBRARY_PATH
+- LIBRARY_PATH
+such:
 <img src="https://raw.githubusercontent.com/JackLovel/qt-demo-projects/master/media-player/img/build_environment_variable.png" width=" 50% "/>
 
 
