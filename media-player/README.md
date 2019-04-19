@@ -40,8 +40,13 @@ $ sudo apt-get install -y libopenal-dev libpulse-dev libva-dev libxv-dev libass-
   libavformat-dev libswscale-dev libavfilter-dev libavcodec-dev 
 
 $ wget https://codeload.github.com/wang-bin/QtAV/zip/master
-$ unzip master && cd QtAV-master
+$ unzip master 
 ```
+
+use `qt quick` to build it, before we need configure `Build Environment`, such:
+<img src="/home/w/Desktop/目标.png" width=" 70% "/>
+
+
 
 ## License
 
