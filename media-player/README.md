@@ -2,25 +2,19 @@
 
 A simple player for you.
 
-### Build dependencies
+## Build dependencies
+here are two ways to build environmental dependencies：
+- use apt-get
+- build source code 
 
-`sudo apt install qt5-default qtav-dev`
+### way1:use apt-get 
+```
+$ sudo apt install qt5-default qtav-dev libqt5core5a libqt5gui5 libqt5widgets5 libqtavwidgets
+```
 
-### Runtime dependencies
-
-* qt5widgets
-
-* qt5gui
-
-* qt5core
-
-* [libqtavwidgets](https://github.com/wang-bin/QtAV)
-
-`sudo apt install libqt5core5a libqt5gui5 libqt5widgets5 libqtavwidgets`
-
-##  build source code 
-if you want use source code build dependencies.
-- build `FFmpeg` 
+###  way2:build source code 
+If you don't want to use apt-get to install the qtav library, you want to use source code.
+- build [FFmpeg](http://www.ffmpeg.org/download.html)
 ```
 $ sudo apt-get install -y yasm 
 $ wget https://ffmpeg.org/releases/ffmpeg-4.1.3.tar.bz2
@@ -30,11 +24,11 @@ $ sudo ./configure --enable-shared --prefix=/usr/local/ffmpeg
 $ sudo make && sudo make install 
 
 $ sudo gedit /etc/ld.so.conf
+// Add in a new line: /usr/local/ffmpeg
 
-// then put: /usr/local/ffmpeg
 $ sudo ldconfig
 ```
-- build [QtAv]()
+- build [QtAv](https://github.com/wang-bin/QtAV)
 ```
 $ sudo apt-get install -y libopenal-dev libpulse-dev libva-dev libxv-dev libass-dev libegl1-mesa-dev \
   libavformat-dev libswscale-dev libavfilter-dev libavcodec-dev 
@@ -44,14 +38,14 @@ $ unzip master
 ```
 
 use `qt quick` to build it, before we need configure `Build Environment`, 
-that need add three variable:
+then add the following variables:
 - CPATH
 - LD_LIBRARY_PATH
 - LIBRARY_PATH
 
 <img src="https://raw.githubusercontent.com/JackLovel/qt-demo-projects/master/media-player/img/build_environment_variable.png" width=" 50% "/>
 
-Switch to build directory 
+switch to build directory 
 ```
 $ chmod +x sdk_install.sh && ./sdk_install.sh 
 ```
