@@ -51,7 +51,12 @@ that need add three variable:
 
 <img src="https://raw.githubusercontent.com/JackLovel/qt-demo-projects/master/media-player/img/build_environment_variable.png" width=" 50% "/>
 
-
+Switch to build directory 
+```
+$ chmod +x sdk_install.sh && ./sdk_install.sh 
+```
+add `avwidgets` library to own project, open `xx.pro`
+<img src="https://raw.githubusercontent.com/JackLovel/qt-demo-projects/master/media-player/img/build_environment_variable.png" width=" 50% "/>
 
 ## License
 
