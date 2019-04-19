@@ -36,7 +36,7 @@ $ sudo ldconfig
 ```
 - build [QtAv]()
 ```
-$ sudo apt-get install libopenal-dev libpulse-dev libva-dev libxv-dev libass-dev libegl1-mesa-dev \
+$ sudo apt-get install -y libopenal-dev libpulse-dev libva-dev libxv-dev libass-dev libegl1-mesa-dev \
   libavformat-dev libswscale-dev libavfilter-dev libavcodec-dev 
 
 $ wget https://codeload.github.com/wang-bin/QtAV/zip/master
