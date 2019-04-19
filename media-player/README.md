@@ -44,7 +44,7 @@ $ unzip master
 ```
 
 use `qt quick` to build it, before we need configure `Build Environment`, such:
-<img src="/home/w/Desktop/目标.png" width=" 70% "/>
+<img src="https://raw.githubusercontent.com/JackLovel/qt-demo-projects/master/media-player/img/build_environment_variable.png" width=" 50% "/>
 
 
 
