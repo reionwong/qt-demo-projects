@@ -2,17 +2,21 @@
 
 A simple player for you.
 
+## system environment
+- deepin desktop 
+- qt5
+
 ## Build dependencies
 here are two ways to build environmental dependencies：
 - use apt-get
 - build source code 
 
-### way1:use apt-get 
+### way1: use apt-get 
 ```
-$ sudo apt install qt5-default qtav-dev libqt5core5a libqt5gui5 libqt5widgets5 libqtavwidgets
+$ sudo apt install qtav-dev libqtavwidgets
 ```
 
-###  way2:build source code 
+###  way2: build source code 
 If you don't want to use apt-get to install the qtav library, you want to use source code.
 - build [FFmpeg](http://www.ffmpeg.org/download.html)
 ```
