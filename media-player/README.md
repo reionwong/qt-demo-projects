@@ -55,7 +55,8 @@ Switch to build directory
 ```
 $ chmod +x sdk_install.sh && ./sdk_install.sh 
 ```
-add `avwidgets` library to own project, open `xx.pro`
+add `avwidgets` library to own project, open `xx.pro`: 
+
 <img src="https://raw.githubusercontent.com/JackLovel/qt-demo-projects/master/media-player/img/add_qtav_library.png" width=" 50% "/>
 
 ## License
