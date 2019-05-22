@@ -71,12 +71,13 @@ void PickerWindow::keyPressEvent(QKeyEvent *e)
 
 void PickerWindow::mouseMoveEvent(QMouseEvent *e)
 {
+    Q_UNUSED(e);
     update();
 }
 
 void PickerWindow::mousePressEvent(QMouseEvent *e)
 {
-
+    Q_UNUSED(e);
 }
 
 void PickerWindow::mouseReleaseEvent(QMouseEvent *e)
