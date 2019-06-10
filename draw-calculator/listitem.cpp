@@ -30,7 +30,7 @@ void ListItem::drawContent(const QRect &rect, QPainter *painter, bool isLast)
         font.setPointSize(fontSize);
 
         QFontMetrics fontMetrics(font);
-        int fontWidth = fontMetrics.width(expression);
+        //int fontWidth = fontMetrics.width(expression);
 
         if (fontMetrics.width(expression) > rect.width()) {
             fontSize -= 2;

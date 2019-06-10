@@ -29,6 +29,8 @@ void ButtonList::initButtonName()
 
 void ButtonList::paintEvent(QPaintEvent *event)
 {
+    Q_UNUSED(event);
+
     QPainter painter(this);
     painter.setRenderHint(QPainter::Antialiasing, true);
 
@@ -109,6 +111,8 @@ void ButtonList::mousePressEvent(QMouseEvent *e)
 
 void ButtonList::mouseReleaseEvent(QMouseEvent *e)
 {
+    Q_UNUSED(e);
+
     isPress = false;
 
     emit clicked(buttonName.at(pressIndex));

@@ -9,7 +9,7 @@ class ButtonList : public QWidget
     Q_OBJECT
 
 public:
-    explicit ButtonList(QWidget *parent = nullptr);
+    ButtonList(QWidget *parent = nullptr);
 
 protected:
     void paintEvent(QPaintEvent *event);

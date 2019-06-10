@@ -42,3 +42,9 @@ HEADERS += \
     utils.h \
     titlebar.h
 
+RESOURCES += \
+    resource.qrc
+
+DISTFILES += \
+    images/icon.svg
+
